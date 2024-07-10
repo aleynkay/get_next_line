@@ -7,4 +7,5 @@ int get_next_line(int fd, char **line);
 
 #### parametreler
 int fd: Okuma yapılacak dosya tanıtıcısı. Bu, dosya veya standart girdiyi temsil eder.
+
 char **line: Okunan satırın depolanacağı bellek adresine işaret eden gösterici. line değişkeni, fonksiyon tarafından ayrılan ve okunan satırı içeren belleği gösterecektir.
